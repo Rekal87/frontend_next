@@ -1,5 +1,9 @@
 import styles from './work.module.scss';
 
 export default function Work() {
-  return;
+  return (
+    <div>
+      <h1>Work Page</h1>
+    </div>
+  );
 }
