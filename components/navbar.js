@@ -6,10 +6,10 @@ import Link from 'next/link';
 export default function Navbar() {
   return (
     <nav className={styles.app__navbar}>
-      <div className='app__navbar-logo'>
+      <div className={styles.app__navbar_logo}>
         <Image src={images.logo} alt='logo' />
       </div>
-      <ul className='app__navbar-links'>
+      <ul className={styles.app__navbar_links}>
         {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
           <li className='app__flex p-text' key={`link-${item}`}>
             <div />
